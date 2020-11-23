@@ -1,0 +1,281 @@
+.App {
+  text-align: center;
+
+}
+.App{
+  width: 375px;
+ min-height: 100vh;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+}
+.Deed-heseg{
+  margin-top: 50px;
+  position: absolute;
+  width: 350px;
+  font-style: normal;
+  font-size: 20px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-weight: bold;
+}
+.Container{
+  margin-top: 10px;
+  display:flex;
+  flex-direction: column;
+align-items: center;
+}
+.container-of-cart{
+  margin-top: 5px;
+  width: 340px;
+  height: 230px;
+  display: flex;
+  flex-direction: column;
+  overflow-y: scroll;
+  /* border: 1px solid black; */
+}
+.container-of-products{
+  width:360px;
+  height: 260px;
+  display: flex;
+  flex-direction: column;
+
+}
+.Container-of-Checkout{
+  position: relative;
+  margin-top: 5px;
+  height: 40px;
+  width: 310px;
+  display: flex;
+  justify-content: center;
+  margin-left: 24px;
+  top:5px;
+  border:1px solid black;
+}
+.Container-of-Checkout button{
+  width: 320px;
+  border-radius: 10px;
+  background-color: #53B175;
+  color: #ffffff;
+ font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+ border: none;
+ font-size: 20px;
+}
+
+.input{
+
+   margin-top: 90px;
+   border-radius: 10px;
+   width: 22  0px;
+   padding-left: 20px;
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+.container-of-product-item{
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  width: 150px;
+  height: 210px;
+  border: 1px solid black;
+  border-radius: 18px;
+align-items: center;
+margin-left: 9px;
+
+}
+.ene-you{
+  display: flex;
+  flex-direction: row;
+  margin-top: 15px;
+  height: 40px;
+}
+.togtmol-zurag-utga{
+  width: 100px;
+  height: 100px;
+}
+.overflow{
+  margin:0;
+  display: flex;
+  flex-direction: row;
+  overflow-x: scroll;
+}
+.ug-bol{
+  margin-top: 3px;
+  height: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content:flex-start;
+  font-size: 16px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-weight: bold;
+}
+.Ugzui{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: bold;
+  margin-top: 15px;
+  align-self: flex-start;
+  margin-left: 10px;
+}
+.todorhoilolt{
+  font-family: inherit;
+  color: #7C7C7C;
+  align-self: flex-start;
+  margin-left: 10px;
+}
+.une{
+ width: 100px;
+ margin-top: 10px;
+}
+.butt{
+  border-radius: 17px;
+  width: 40px;
+  background-color: #53B175;
+  font-size: 30px;
+  color: #ffffff;
+  border: none;
+}
+.Cart{
+  display: flex;
+  justify-content: flex-start;
+  width: 48px;
+  height: 29px;
+  margin-left:0px;
+  font-size: 17px;
+  font-weight: bold;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.Cart-of-item-container{
+  display: flex;
+  flex-direction: row;
+  height: 120px;
+  border-bottom:1px solid black ;
+  margin-top: 5px;
+
+}
+.zurag{
+  margin-top: 10px;
+  width: 90px;
+  height: 100px;
+}
+.Hajuu-heseg{
+  width: 280px;
+  height: 120px;
+  display: flex;
+  flex-direction: column;
+ align-items: flex-start;
+}
+.Haj-utga{
+  margin-top: 10px;
+  margin-left: 10px;
+font-size: 16px ;
+font-weight: bold;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.tail{
+  font-size: 14px;
+  margin-left: 10px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.container-shirheg{
+  margin-top: 10px;
+  display: flex;
+  flex-direction: row;
+  width:250px;
+  height: 60px;
+  align-items: center;
+}
+.goy-butt{
+  width: 45px;
+  height: 45px;
+  border: 1px solid #f0f0f0;
+  box-sizing: border-box;
+  border-radius: 17px;
+  color: #53B175;
+  font-size: 30px;
+  margin-left: 15px;
+}
+.nemegdeh{
+  margin-left: 15px;
+  font-size: 20px;
+}
+.Tusdaa-une{
+  position: relative;
+ /* right: 25px;
+ top: 340px; */
+ left: 54px;
+ top: 10px;
+ font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.Hasanshuu{
+  position: relative;
+  width: 40px;
+  height: 40px;
+  border: 1px solid black;
+  border: none;
+  background-color: #ffffff;
+  font-size: 25px;
+  right: 30px;
+}
+.ug{
+  font-size: 20px;
+  align-self: flex-start;
+
+  font-weight: bold;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.gg{
+  margin-top: 20px;
+  width:360px;
+  display: flex;
+  flex-direction: column;
+
+}
+.or{
+  display: flex;
+  flex-direction: column;
+  width: 360px;
+
+}
+.container-of-or{
+  width: 360px;
+  height: 310px;
+  display:flex;
+  flex-direction: column;
+  align-items: flex-start;
+  border-bottom: 1px solid black;
+}
+.duuslaa{
+display:flex;
+flex-direction: row;
+width: 360px;
+height: 250px;
+overflow-x: scroll;
+}
+.p{
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  min-width: 150px;
+  height: 210px;
+  border: 1px solid black;
+  border-radius: 18px;
+align-items: center;
+margin-left: 9px;
+}
+.oow{
+  position: relative;
+  margin-top: 8px;
+  border-radius: 17px;
+  width: 30px;
+  height: 25px;
+  background-color: #53B175;
+  font-size: 20px;
+  color: #ffffff;
+  border: none;
+}
+.moun{
+  margin:0;
+  display:flex;
+  flex-direction: column;
+  align-items: flex-start;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;  
+}
